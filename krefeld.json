@@ -75,15 +75,19 @@
       }
     ],
     "networks": {
+      "ipv6": [
+        {
+          "network": "2a03:2260:50::/48"
+        }
+      ],
       "ipv4": [
         {
-          "network": "10.105.0.0/16"
+          "network": "10.41.0.0/16"
         }
       ]
     },
     "routing": [
       "batman-adv",
-      "OLSRv2"
     ],
     "updatemode": [
       "autoupdate"
