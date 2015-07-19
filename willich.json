@@ -2,10 +2,10 @@
   "name": "Freifunk Krefeld",
   "url": "http://freifunk-ruhrgebiet.de",
   "location": {
-    "city": "Krefeld",
+    "city": "Willich",
     "country": "DE",
-    "lat": 51.341453,
-    "lon": 6.587618,
+    "lat": 51.2654601,
+    "lon": 6.5442659,
     "address": {
       "Name": "foobar e.V.",
       "Street": "Sibyllastr. 9",
