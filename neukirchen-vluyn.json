@@ -1,8 +1,8 @@
 {
-  "name": "Freifunk Neukirchen-Vluyn",
+  "name": "Freifunk Neukirchen Vluyn",
   "url": "http://freifunk-ruhrgebiet.de",
   "location": {
-    "city": "Neukirchen-Vluyn",
+    "city": "Neukirchen Vluyn",
     "country": "DE",
     "lat": 51.4381509,
     "lon": 6.5354296,
@@ -13,13 +13,13 @@
     }
   },
   "contact": {
-    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
     "email": "kontakt@freifunk-ruhrgebiet.de",
     "irc": "irc://irc.freenode.net/ffruhr",
-    "ml": "ffrl@mailman.freifunk-rheinland.net",
+    "ml": "ruhrgebiet@forum.freifunk.net",
+    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
     "twitter": "@ffruhr"
   },
-  "metacommunity": "Freifunk Ruhrgebiet",
+  "metacommunity": "Freifunk Niersufer",
   "state": {
     "nodes": 15,
     "focus": [
@@ -29,7 +29,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2014-12-20T16:10:27.740Z"
+    "lastchange": "2015-07-18T09:20:06.985Z"
   },
   "feeds": [
     {
@@ -59,6 +59,16 @@
       "mapType": "list/status"
     }
   ],
+  "support": {
+    "donations": {
+      "campaigns": [
+        {
+          "provider": "boost",
+          "projectid": "2774"
+        }
+      ]
+    }
+  },
   "techDetails": {
     "firmware": {
       "name": "gluon",
@@ -69,8 +79,8 @@
       {
         "domainname": "ffrg",
         "nameserver": [
-          "10.105.0.1",
-          "10.105.8.1"
+          "10.53.0.1",
+          "10.53.8.1"
         ]
       }
     ],
@@ -82,12 +92,15 @@
       ],
       "ipv4": [
         {
-          "network": "10.41.0.0/16"
+          "network": "10.53.0.0/16"
+        },
+        {
+          "network": "10.0.0.0/16"
         }
       ]
     },
     "routing": [
-      "batman-adv",
+      "batman-adv"
     ],
     "updatemode": [
       "autoupdate"
