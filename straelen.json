@@ -1,0 +1,103 @@
+{
+  "name": "Freifunk Straelen",
+  "url": "http://freifunk.straelen.eu",
+  "location": {
+    "city": "Straelen",
+    "country": "DE",
+    "lat": 51.441544,
+    "lon": 6.26555,
+    "address": {
+      "Name": "foobar e.V.",
+      "Street": "Sibyllastr. 9",
+      "Zipcode": "45136"
+    }
+  },
+  "contact": {
+    "email": "freifunk@straelen.eu",
+    "irc": "irc://irc.freenode.net/ffruhr",
+    "ml": "ruhrgebiet@forum.freifunk.net",
+    "facebook": "https://www.facebook.com/FreifunkStraelen",
+    "twitter": "@ffruhr"
+  },
+  "metacommunity": "Freifunk Ruhrgebiet",
+  "state": {
+    "nodes": 98,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2015-07-18T09:20:06.985Z"
+  },
+  "feeds": [
+    {
+      "name": "EventsFeed",
+      "category": "others",
+      "type": "xml",
+      "url": "https://freifunk-rheinland.net/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=113863465"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "http://map.flachland.freifunk.ruhr/meshviewer/",
+      "interval": "1 Minute",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    }
+  ],
+  "support": {
+    "donations": {
+      "campaigns": [
+        {
+          "provider": "boost",
+          "projectid": "2774"
+        }
+      ]
+    }
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "http://images.freifunk-ruhrgebiet.de",
+      "docs": "http://freifunk-ruhrgebiet.de/anleitung/"
+    },
+    "dns": [
+      {
+        "domainname": "fffl",
+        "nameserver": [
+          "10.53.0.1",
+          "10.53.8.1"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "2a03:2260:50::/48"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.53.0.0/16"
+        },
+        {
+          "network": "10.0.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "institutions"
+    ]
+  },
+  "api": "0.4.8"
+  
+  
+}
