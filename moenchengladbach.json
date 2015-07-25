@@ -7,16 +7,16 @@
     "lat": 51.1804572,
     "lon": 6.4428040,
     "address": {
-      "Name": "foobar e.V.",
-      "Street": "Sibyllastr. 9",
-      "Zipcode": "45136"
+      "Name": "PiPa",
+      "Street": "Eickener Strasse 83",
+      "Zipcode": "41061"
     }
   },
   "contact": {
-    "email": "kontakt@freifunk-ruhrgebiet.de",
+    "email": "kontakt@freifunk-moenchengladbach.de",
     "irc": "irc://irc.freenode.net/ffruhr",
     "ml": "ruhrgebiet@forum.freifunk.net",
-    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
+    "facebook": "https://www.facebook.com/FFMgladbach",
     "twitter": "@ffruhr"
   },
   "metacommunity": "Freifunk Niersufer",
@@ -29,7 +29,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-07-18T09:20:06.985Z"
+    "lastchange": "2015-07-26T00:00:00.000Z"
   },
   "feeds": [
     {
@@ -41,22 +41,10 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://map.freifunk-ruhrgebiet.de/graph.html",
-      "interval": "1 Minute",
-      "technicalType": "ffmap",
-      "mapType": "structural"
-    },
-    {
-      "url": "http://map.freifunk-ruhrgebiet.de/geomap.html",
+      "url": "http://map.freifunk-moenchengladbach.de/",
       "interval": "1 Minute",
       "technicalType": "ffmap",
       "mapType": "geographical"
-    },
-    {
-      "url": "http://map.freifunk-ruhrgebiet.de/list.html",
-      "interval": "1 Minute",
-      "technicalType": "ffmap",
-      "mapType": "list/status"
     }
   ],
   "support": {
@@ -72,30 +60,27 @@
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://images.freifunk-ruhrgebiet.de",
+      "url": "http://images.freifunk-ruhrgebiet.de/ffniers/",
       "docs": "http://freifunk-ruhrgebiet.de/anleitung/"
     },
     "dns": [
       {
-        "domainname": "ffrg",
+        "domainname": "ffmg",
         "nameserver": [
-          "10.53.0.1",
-          "10.53.8.1"
+          "ns1.ffrl.de",
+          "ns2.ffrl.de"
         ]
       }
     ],
     "networks": {
       "ipv6": [
         {
-          "network": "2a03:2260:50::/48"
+          "network": "2a03:2260:50:3::/64"
         }
       ],
       "ipv4": [
         {
-          "network": "10.53.0.0/16"
-        },
-        {
-          "network": "10.0.0.0/16"
+          "network": "10.41.0.0/16"
         }
       ]
     },
