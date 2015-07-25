@@ -1,27 +1,27 @@
 {
   "name": "Freifunk Bochum",
-  "url": "http://freifunk-ruhrgebiet.de",
+  "url": "http://freifunk-bochum.de",
   "location": {
     "city": "Bochum",
     "country": "DE",
-    "lat": 51.508646,
-    "lon": 7.245233,
+    "lat": 51.482100,
+    "lon": 7.215458,
     "address": {
-      "Name": "foobar e.V.",
-      "Street": "Sibyllastr. 9",
-      "Zipcode": "45136"
+      "Name": "Labor e.V.",
+      "Street": "Alleestr.50",
+      "Zipcode": "44793"
     }
   },
   "contact": {
-    "email": "kontakt@freifunk-ruhrgebiet.de",
+    "email": "info@freifunk-bochum.de",
     "irc": "irc://irc.freenode.net/ffruhr",
-    "ml": "ffrl@mailman.freifunk-rheinland.net",
-    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
+    "ml": "discuss@freifunk-bochum.de",
+    "facebook": "https://www.facebook.com/Freifunk.Bochum",
     "twitter": "@ffruhr"
   },
-  "metacommunity": "Freifunk Ruhrgebiet",
+  "metacommunity": "Freifunk Bochum",
   "state": {
-    "nodes": 15,
+    "nodes": 98,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -29,7 +29,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2014-12-20T16:10:27.740Z"
+    "lastchange": "2015-07-25T16:10:27.740Z"
   },
   "feeds": [
     {
@@ -41,19 +41,19 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://map.freifunk-ruhrgebiet.de/graph.html",
+      "url": "http://map.freifunk-bochum.de/graph.html",
       "interval": "1 Minute",
       "technicalType": "ffmap",
       "mapType": "structural"
     },
     {
-      "url": "http://map.freifunk-ruhrgebiet.de/geomap.html",
+      "url": "http://map.freifunk-bochum.de/geomap.html",
       "interval": "1 Minute",
       "technicalType": "ffmap",
       "mapType": "geographical"
     },
     {
-      "url": "http://map.freifunk-ruhrgebiet.de/list.html",
+      "url": "http://map.freifunk-bochum.de/list.html",
       "interval": "1 Minute",
       "technicalType": "ffmap",
       "mapType": "list/status"
@@ -62,7 +62,7 @@
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://images.freifunk-ruhrgebiet.de",
+      "url": "http://images.freifunk-bochum.de",
       "docs": "http://freifunk-ruhrgebiet.de/anleitung/"
     },
     "dns": [
