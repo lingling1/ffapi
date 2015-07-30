@@ -41,7 +41,7 @@
   ],
   "nodeMaps": [
       {
-         "technicalType" : "nodelist",
+         "technicalType" : "ffmap",
          "interval": "1min",
          "mapType" : "list/status",
          "url" : "http://map.freifunk-ruhrgebiet.de/data/nodes.json"
