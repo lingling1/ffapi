@@ -9,13 +9,13 @@
          "url" : "https://map.freifunk-essen.de/"
       },
       {
-         "technicalType" : "nodelist",
+         "technicalType" : "ffmap",
          "interval": "1min",
          "mapType" : "list/status",
          "url" : "https://map.freifunk-essen.de/data/nodelist.json"
       },
       {
-         "technicalType" : "nodelist",
+         "technicalType" : "ffmap",
          "interval": "1min",
          "mapType" : "list/status",
          "url" : "http://map.freifunk-ruhrgebiet.de/data/nodes.json"
