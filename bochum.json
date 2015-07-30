@@ -40,24 +40,12 @@
     }
   ],
   "nodeMaps": [
-    {
-      "url": "http://map.freifunk-bochum.de/graph.html",
-      "interval": "1 Minute",
-      "technicalType": "ffmap",
-      "mapType": "structural"
-    },
-    {
-      "url": "http://map.freifunk-bochum.de/geomap.html",
-      "interval": "1 Minute",
-      "technicalType": "ffmap",
-      "mapType": "geographical"
-    },
-    {
-      "url": "http://map.freifunk-bochum.de/list.html",
-      "interval": "1 Minute",
-      "technicalType": "ffmap",
-      "mapType": "list/status"
-    }
+      {
+         "technicalType" : "nodelist",
+         "interval": "1min",
+         "mapType" : "list/status",
+         "url" : "http://map.freifunk-ruhrgebiet.de/data/nodes.json"
+      }
   ],
   "techDetails": {
     "firmware": {
@@ -98,5 +86,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.4"
+  "api": "0.4.8"
 }
