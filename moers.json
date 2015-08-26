@@ -1,0 +1,123 @@
+{
+  "name": "Freifunk Moers",
+  "url": "http://freifunk-moers.de",
+  "location": {
+    "city": "Moers",
+    "country": "DE",
+    "lat": 51.45106,
+    "lon": 6.641453,
+    "address": {
+      "Name": "foobar e.V.",
+      "Street": "Sibyllastr. 9",
+      "Zipcode": "45136"
+    }
+  },
+  "contact": {
+    "email": "kontakt@freifunk-ruhrgebiet.de",
+    "phone": "+49 2841 7819494",
+    "irc": "irc://irc.freenode.net/ffruhr",
+    "ml": "ruhrgebiet@forum.freifunk.net",
+    "facebook": "https://facebook.com/FreifunkMoers",
+    "twitter": "@FreifunkMoers"
+  },
+  "metacommunity": "Freifunk Ruhrgebiet",
+  "state": {
+    "nodes": 147,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2015-08-26T16:25:35.494Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "http://map.freifunk-moers.de",
+      "interval": "1 Minute",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    },
+    {
+      "url": "http://map.freifunk-moers.de",
+      "interval": "1 Minute",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://map.freifunk-moers.de",
+      "interval": "1 Minute",
+      "technicalType": "ffmap",
+      "mapType": "list/status"
+    }
+  ],
+  "support": {
+    "club": {
+      "name": "Freifunk Rheinland e.V.",
+      "street": "Postfach 10 03 54",
+      "zip": "41003",
+      "city": "Mönchengladbach",
+      "url": "https://freifunk-rheinland.net",
+      "email": "request@freifunk-rheinland.net"
+    },
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE16430609674044542600",
+        "BIC": "GENODEM1GLS",
+        "usage": "Freifunk Moers"
+      },
+      "campaigns": [
+        {
+          "provider": "boost",
+          "projectid": "2774"
+        }
+      ]
+    }
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "http://images.freifunk-ruhrgebiet.de/ffmo/stable/",
+      "docs": "http://freifunk-ruhrgebiet.de/anleitung/"
+    },
+    "dns": [
+      {
+        "domainname": "ffmo",
+        "nameserver": [
+          "151.80.64.190",
+          "85.14.255.33",
+          "2001:41d0:c:95c::190",
+          "2001:4ba0:ffff:1e9::33"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "2a03:2260:50::/44"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.53.0.0/16"
+        },
+        {
+          "network": "10.0.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "802.11s",
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational",
+      "institutions"
+    ]
+  },
+  "api": "0.4.8"
+}
