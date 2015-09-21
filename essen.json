@@ -72,6 +72,11 @@
         {
           "provider": "betterplace",
           "projectid": "16049"
+        },
+        ,
+        {
+          "provider": "betterplace",
+          "projectid": "34173"
         }
       ]
     }
