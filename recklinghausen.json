@@ -65,6 +65,10 @@
         {
           "provider": "boost",
           "projectid": "2774"
+        },
+        {
+          "provider": "betterplace",
+          "projectid": "34178"
         }
       ]
     }
