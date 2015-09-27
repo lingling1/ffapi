@@ -44,7 +44,7 @@
          "technicalType" : "ffmap",
          "interval": "1min",
          "mapType" : "list/status",
-         "url" : "http://map.freifunk-ruhrgebiet.de/data/nodes.json"
+         "url" : "http://map.freifunk-bochum.de/nodes.json"
       }
   ],
   "techDetails": {
