@@ -1,0 +1,92 @@
+{
+  "name": "Freifunk Ennepe-Ruhr-Kreis",
+  "url": "http://www.freifunk-en.de",
+  "location": {
+    "city": "Witten",
+    "country": "DE",
+    "lat": 51.346667,
+    "lon": 7.323889,
+    "address": {
+      "Name": "Freifunk im Ennepe-Ruhr-Kreis e.V.",
+      "Street": "Schwalbenweg 66",
+      "Zipcode": "58455"
+    }
+  },
+  "contact": {
+    "email": "kontakt@freifunk-en.de",
+    "irc": "irc://irc.freenode.net/ffruhr",
+    "ml": "not@public.de",
+    "facebook": "https://www.facebook.com/freifunken",
+    "twitter": "@freifunkENkreis"
+  },
+  "metacommunity": "Freifunk Ruhrgebiet",
+  "state": {
+    "nodes": 600,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2015-09-29T13:50:27.740Z"
+  },
+  "feeds": [
+    {
+      "name": "EventsFeed",
+      "category": "others",
+      "type": "xml",
+      "url": "https://freifunk-rheinland.net/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=113863465"
+    }
+  ],
+  "nodeMaps": [
+      {
+         "technicalType" : "ffmap",
+         "interval": "1min",
+         "mapType" : "list/status",
+         "url" : "http://map.en.freifunk.ruhr/enkreis/data/nodes.json"
+      }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "http://firmware.freifunk-en.de",
+      "docs": "http://www.freifunk-en.de/?page_id=39"
+    },
+    "dns": [
+      {
+        "domainname": "ffen",
+        "nameserver": [
+          "10.20.16.1",
+          "82.207.138.33"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "2a03:2260:50:2::/64",
+                    "2a03:2260:50:13::/64",
+                    "2a03:2260:50:14::/64"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.20.0.0/17"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational",
+      "institutions"
+    ]
+  },
+  "api": "0.4.8"
+}
