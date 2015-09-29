@@ -17,11 +17,11 @@
     "irc": "irc://irc.freenode.net/ffruhr",
     "ml": "ruhrgebiet@forum.freifunk.net",
     "facebook": "https://www.facebook.com/FFMgladbach",
-    "twitter": "@ffruhr"
+    "twitter": "@ffmgladbach"
   },
   "metacommunity": "Freifunk Niersufer",
   "state": {
-    "nodes": 15,
+    "nodes": 65,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -29,7 +29,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-07-26T00:00:00.000Z"
+    "lastchange": "2015-09-29T00:00:00.000Z"
   },
   "feeds": [
     {
@@ -45,6 +45,12 @@
       "interval": "1 Minute",
       "technicalType": "ffmap",
       "mapType": "geographical"
+    },
+    {
+      "url": "http://api.freifunk-niersufer.de/mg/nodes.json",
+      "interval": "1 Minute",
+      "technicalType": "ffmap",
+      "mapType": "list/status"
     }
   ],
   "support": {
