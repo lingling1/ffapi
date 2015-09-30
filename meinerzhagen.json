@@ -21,7 +21,7 @@
   },
   "metacommunity": "Freifunk Ruhrgebiet",
   "state": {
-    "nodes": 15,
+    "nodes": 50,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
